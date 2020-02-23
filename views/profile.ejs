@@ -1,35 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <style>
-        body{
-            background: skyblue;
-            font-family: Verdana;
-            color: #fff;
-            padding: 30px;
-        }
-        h1{
-            font-size : 62px;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-            text-align: center;
-        }
-        h2{
-            font-size : 32px;
-            letter-spacing: 2px;
-            text-align: center;
-            color : red;
-        }
-        p, li{
-            font-size: 10;
-            text-align: center;
-        }
-    </style>
+    <link  href="/assets/styles.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
   
-   
+    <%- include ('partials/nav.ejs'); -%>
     <h1>WELCOME TO THE PROFILE OF <%=person%></h1>
     <p><strong>Age : <%= data.age %></strong></p>
     <p><strong>job : <%= data.job %></strong></p>
