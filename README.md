@@ -68,8 +68,8 @@ The page of the streaming film contain also a bunch of similiar films.
 ![streaming](server/public/images/stream.png)
 <hr>
 
-> # Created By : 
+> # Created By :
+-  ELMAKHLOUK Chouaib 
 -  SIFEDDINE Ilyas
 -  GOULMANE Mouad
--  ELMAKHLOUK Chouaib 
 -  BOUROUMMANA Ismail
